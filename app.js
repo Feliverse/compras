@@ -1,10 +1,3 @@
-// api rest - Variables de entorno 
-const url = 'https://cukhmkzetdlufitzphrr.supabase.co/rest/v1/productos?select=*';
-const headers = {
-    'apikey': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN1a2hta3pldGRsdWZpdHpwaHJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQwNzkzNzksImV4cCI6MjA2OTY1NTM3OX0.2q-MB4IV0SnKjVMvpaW56bvbwaqsun0iZsVu_zcMIBc',
-    'Authorization': 'Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImN1a2hta3pldGRsdWZpdHpwaHJyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTQwNzkzNzksImV4cCI6MjA2OTY1NTM3OX0.2q-MB4IV0SnKjVMvpaW56bvbwaqsun0iZsVu_zcMIBc'
-};
-
 fetch(url, { headers })
     .then(response => response.json())
 .then(data => {
